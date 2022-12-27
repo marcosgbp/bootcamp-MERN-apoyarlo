@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div class="container">
+    <div className="container">
       <PersonCard nombre="Marcos" apellido="Benítez" edad="26" hairColor="Blue"/>
       <PersonCard nombre="Maria" apellido="Cabrera" edad="27" hairColor="Pink"/>
       <PersonCard nombre="Marcelo" apellido="Benítez" edad="41" hairColor="Black"/>
