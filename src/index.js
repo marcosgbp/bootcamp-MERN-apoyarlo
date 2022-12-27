@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import PersonCard from './components/PersonCard';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div class="container">
+      <PersonCard nombre="Marcos" apellido="Benítez" edad="26" hairColor="Blue"/>
+      <PersonCard nombre="Maria" apellido="Cabrera" edad="27" hairColor="Pink"/>
+      <PersonCard nombre="Marcelo" apellido="Benítez" edad="41" hairColor="Black"/>
+      <PersonCard nombre="Blas" apellido="Benítez" edad="66" hairColor="Blue"/>
+      <PersonCard nombre="Maria" apellido="Paredes" edad="66" hairColor="Red"/>
+    </div>
+
   </React.StrictMode>
 );
 
